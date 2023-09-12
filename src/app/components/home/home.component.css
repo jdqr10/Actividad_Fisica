@@ -1,0 +1,169 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .contenido{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 50px;
+    color: orange;
+    padding: 10px;
+    padding-top: 140px;
+  }
+  
+  .dieta{
+    display: flex;
+      /* border: 1px solid; */
+      width: 90%;
+      gap: 30px;
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .dieta img{
+    width: 25%;
+    border-radius: 35px;
+  }
+  
+  .dieta p{
+    width:85%;
+    font-size: 20px;
+  }
+  
+  .dieta h2{
+    font-size: 35px;
+  }
+  
+  .card{
+    border: 1px solid;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 25%;
+      padding: 10px;
+      text-align: center;
+      gap: 40px;
+      border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .parte2{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 90px;
+  }
+  
+  .parte2 p{
+    font-size: 20px;
+  }
+  
+  h2{
+    font-size: 35px;
+    color: orange;
+  }
+  
+  .parte2 img{
+    width: 190px;
+  }
+  
+  .parte3{
+    /* border: 1px solid; */
+    margin-top: 90px;
+    width: 90%;
+    display: flex;
+    /* text-align: center;  */
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .left{
+    /* border: 1px red solid; */
+    width: 50%;
+  }
+  
+  .right{
+    /* border: 1px green solid; */
+    width: 50%;
+  }
+  
+  .parte3 img{
+    width: 95%;
+  }
+  
+  .parte3 p{
+    font-size: 20px;
+    width: 95%;
+  }
+  
+  .parte4{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 90px;
+    gap: 50px;
+  }
+  
+  .parte4 img{
+    width: 400px;
+  }
+  
+  .arriba{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+  }
+  
+  .abajo{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+  }
+  
+  .parte4 p{
+    font-size: 20px;
+  }
+  
+  .last{
+    margin-top: 90px;
+    width: 90%;
+  }
+  
+  .last img{
+    width: 100%;
+    border-radius: 80px;
+  }
+  
+  .ultimo{
+    display: flex;
+    gap: 60px;
+  }
+  
+  .izquierda{
+    width: 50%;
+  }
+  
+  .derecha{
+    width: 50%;
+  }
+  
+  li{
+    font-size: 20px;
+  }
+  
+  ul li{
+    padding: 10px;
+  }
+  
